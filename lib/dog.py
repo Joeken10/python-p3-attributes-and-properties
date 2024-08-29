@@ -15,9 +15,9 @@ class Dog:
     
 
     def __init__(self, name="Unknown", breed="Unknown"):
-        # Set name first, then check breed only if the name is valid
+    
         self.name = name
-        if hasattr(self, '_name'):  # Check if name was successfully set before validating breed
+        if hasattr(self, '_name'):  
             self.breed = breed
 
     def get_name(self):
